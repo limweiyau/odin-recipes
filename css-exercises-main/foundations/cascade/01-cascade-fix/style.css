@@ -29,6 +29,16 @@ body {
   font-size: 20px;
 }
 
+#confirm-button {
+  background-color: green;
+  color: white;
+}
+
+.text .child {
+  font-size: 16px;
+  font-weight: 800; 
+}
+
 .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
