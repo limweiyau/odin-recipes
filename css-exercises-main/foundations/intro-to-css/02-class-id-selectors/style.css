@@ -1,0 +1,20 @@
+.odd-elements {
+    background-color: pink;
+    font-family: Verdana, Dejavu Sans, Sans-Serif;
+}
+
+#element1 {
+    color: blue;
+    font-size: 36px;
+}
+
+#element2 {
+    font-size: 24px;
+}
+
+#element3 {
+    background-color: lightgreen;
+    font-size: 24px; 
+    font-weight: bold;
+}
+
