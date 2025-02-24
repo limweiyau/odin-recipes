@@ -1,30 +1,34 @@
 .section-1-parent-container {
+    /* border: 1px solid red; */
     display: grid;
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: auto auto;
     gap: 10px; 
     width: auto;
     background-color: #1F2937;
-    padding-left: 75px;
-    padding-right: 75px;
+    padding-left: 5dvw;
+    padding-right: 5dvw;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .section-1-child-container {
-    margin-top: 10px;
+    /* border: 1px solid red; */
+    margin-top: 1dvw;
     font-weight: bold;
-    margin-bottom: 100px;
-    padding: 15px;
+    margin-bottom: 5dvw;
+    margin-left: 1dvw;
+    margin-right: 1dvw;
+    padding: 1dvw;
 }
 
 .section-2-parent-container {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding-left: 10px;
     padding-right: 10px;
 }
 
 .section-2-child-container {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin: 20px;
     justify-content: center;
     align-items: center;
@@ -35,7 +39,7 @@
 }
 
 .section-2-child-child-container {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 5px;
     color: black;
     font-size: 15px;
@@ -50,11 +54,11 @@
     width: 120px;
     height: 120px;
     margin: 5px;
-    border-radius: 5px;
+    border-radius: 7px;
 }
 
 .section-3-parent-container {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding-left: 220px;
     padding-right: 220px;
     background-color:#E5E7EB;
@@ -68,24 +72,26 @@
     color: #1F2937;
 }
 
-
 button {
     background-color: #3882F6;
     color: white;
-    width: 100px;
+    width: 10dvw;
+    height: 2dvw;
     border-radius: 3px;
     border: 1px solid #3882F6;
-    margin-top: 10px;
-    margin-left: 5px;
+    margin-top: 1dvw;
+    margin-left: 1dvw;
+    font-size: min(4dvw, 1dvw);
 }
 
 .image-placeholder {
     background-color: grey;
-    width: 400px; 
-    height: 100px;
+    width: 40dvw; 
+    height: 10dvw;
     text-align: center;
-    padding: 50px;
+    padding: 5dvw;
     justify-content: center;
+    margin-left: auto;
     align-items: center;
     display: flex;
     color: white;
@@ -93,13 +99,13 @@ button {
 
 .hero-main-text {
     text-align: left;
-    font-size: 48px; 
+    font-size: min(7dvw, 3dvw); 
     color: #F9FAF8;
     font-weight: 900;
 }
 
 .hero-secondary-text {
-    font-size: 18px; 
+    font-size: min(4dvw, 1.5dvw); 
     color: #E5E7EB;
     font-weight: 300;
 }
