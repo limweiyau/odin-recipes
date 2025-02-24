@@ -17,6 +17,42 @@
     padding: 15px;
 }
 
+.section-2-parent-container {
+    border: 1px solid red;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.section-2-child-container {
+    border: 1px solid rgb(87, 87, 162);
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    display: flex;
+}
+
+.section-2-child-child-container {
+    border: 1px solid red;
+    margin: 5px;
+    color: black;
+    font-size: 15px;
+    width: 150px;
+    padding: 10px;
+}
+
+.section-2-child-container-picture {
+    justify-content: center;
+    display: inline-flex;
+    border: 3px solid rgb(97, 97, 247);
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
 button {
     background-color: #3882F6;
     color: white;
@@ -38,7 +74,6 @@ button {
     display: flex;
     color: white;
 }
-
 
 .hero-main-text {
     text-align: left;
