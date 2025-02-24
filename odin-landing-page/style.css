@@ -59,15 +59,15 @@
 
 .section-3-parent-container {
     /* border: 1px solid red; */
-    padding-left: 220px;
-    padding-right: 220px;
+    padding-left: 15dvw;
+    padding-right: 15dvw;
     background-color:#E5E7EB;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 10dvw;
+    padding-bottom: 10dvw;
 }
 
 .section-3-child-container {
-    font-size: 28px;
+    font-size: clamp(2.5dvw, 3dvw, 4dvw);
     font-style: light italic;
     color: #1F2937;
 }
@@ -125,4 +125,46 @@ button {
     font-size: 18px; 
     color: #E5E7EB;
     font-weight: 300;
+}
+
+.section-4-parent-container {
+    border: 1px solid red;
+    padding-left: 10dvw;
+    padding-right: 10dvw;
+    padding-top: 10dvw;
+    padding-bottom: 10dvw;
+    color: white;
+    font-weight: 100;
+    font-size: min(4dvw, 2dvw);
+}
+
+.section-4-child-container {
+    border: 1px solid red;
+    border-radius: 1dvw;
+    display: flex;
+    background-color: rgb(64,132,244);
+    padding-top: 5dvw;
+    padding-bottom: 5dvw;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.section-4-child-child-container {
+    border: 1px solid red;
+}
+
+.button2 {
+    display: flex;
+    color: white;
+    width: 15dvw;
+    height: 3dvw;
+    border-radius: 3px;
+    text-align: center;
+    border: 1px solid white;
+    font-size: min(4dvw, 2dvw);
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-left: 3dvw;
 }
